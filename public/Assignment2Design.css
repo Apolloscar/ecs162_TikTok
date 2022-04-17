@@ -1,11 +1,10 @@
 body
 {
     margin: 20px;
-<<<<<<< HEAD
+
     margin-left: 100px;
     margin-right: 100px;
-=======
->>>>>>> ddca8b07550232d77c5e9f58c33ac68060235634
+
     font-family: 'Inter';
 }
 
@@ -16,13 +15,8 @@ body
    
     font-size: 48px;
     font-family: 'Boogaloo';
-<<<<<<< HEAD
+
     width: 48%;
-=======
-    width: 50%;
->>>>>>> ddca8b07550232d77c5e9f58c33ac68060235634
-
-
 }
 
 .button
@@ -148,7 +142,4 @@ label
     {
         font-size: 16px;
     }
-
-=======
->>>>>>> ddca8b07550232d77c5e9f58c33ac68060235634
 }
