@@ -1,10 +1,8 @@
 body
 {
     margin: 20px;
-
     margin-left: 100px;
     margin-right: 100px;
-
     font-family: 'Inter';
 }
 
@@ -15,8 +13,9 @@ body
    
     font-size: 48px;
     font-family: 'Boogaloo';
-
     width: 48%;
+
+
 }
 
 .button
@@ -95,7 +94,6 @@ body
 label
 {
     font-size: 16px;
-<<<<<<< HEAD
 }
 
 @media(max-width: 900px)
@@ -142,4 +140,5 @@ label
     {
         font-size: 16px;
     }
+
 }
