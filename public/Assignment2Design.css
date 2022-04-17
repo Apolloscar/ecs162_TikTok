@@ -1,0 +1,88 @@
+body
+{
+    margin: 20px;
+}
+
+
+#name
+{
+    display: flex;
+   
+    font-size: 48px;
+    width: 50%;
+    font-family: "Boogaloo Regular";
+
+}
+
+.button
+{
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 25px;
+    text-align: center;
+    text-decoration: none;
+
+
+
+    border-radius: 16px;
+    background-color: rgb(238, 29, 82,.9);
+    font-size: 20px;
+    height: 50px;
+}
+
+
+
+#upper
+{
+    display: flex;
+
+    justify-content: end;
+}
+
+#background
+{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+
+    margin-top: 90px;
+
+}
+
+#contents
+{
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+    border-radius: 16px;
+    padding: 50px 100px;
+    background-image: linear-gradient(to bottom right, rgb(238, 29, 82,.9) , rgba(105, 201, 208));
+}
+
+#id_title
+{
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.textbubble
+{
+    border-radius: 8px;
+    border-color: transparent;
+    height: 30px;
+    width: 300px;
+}
+
+
+.buttonbox
+{
+    display: flex;
+    width: 100%;
+
+    justify-content: center;
+    margin-top: 30px;
+}
