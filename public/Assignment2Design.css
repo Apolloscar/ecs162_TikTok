@@ -71,6 +71,7 @@ body
     margin-bottom: 80px;
     display: flex;
     justify-content: center;
+    font-size: 24px;
 }
 
 .textbubble
@@ -100,7 +101,7 @@ label
 {
     body
     {
-        background-color: green;
+
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -128,7 +129,9 @@ label
 {
     body
     {
-        background-color: blue;
+
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     #name
@@ -140,5 +143,36 @@ label
     {
         font-size: 16px;
     }
+
+    #id_title
+    {
+        
+        font-size: 20px;
+    }
+
+    #upper
+    {
+        display: flex;
+
+        justify-content: space-between;
+    }
+
+    .textbubble
+    {
+ 
+  
+        width: 200px;
+    }
+
+    #video
+    {
+        padding: 10px 20px;
+    }
+
+    #contents
+    {
+        padding: 50px 30px;
+    }
+
 
 }
