@@ -5,6 +5,9 @@
 const express = require("express");
 // create object to interface with express
 const app = express();
+// gets data out of HTTP request body 
+// and attaches it to the request object
+const bodyParser = require('body-parser');
 
 // Code in this section sets up an express pipeline
 
@@ -20,7 +23,18 @@ app.use(express.static("public"));
 
 // if no file specified, return the main page
 app.get("/", (request, response) => {
-  response.sendFile(__dirname + "/public/tiktokpets.html");
+  response.sendFile(__dirname + "/public/Assignment2.html");
+});
+
+// gets text out of the HTTP body and into req.body
+app.use(bodyParser.text());
+
+// This is where the server recieves and responds to POST requests
+app.post('/videoData', function(req, res, next) {
+  console.log("Server recieved a post request at", req.url);
+  let text = req.body;
+  console.log("It contained this string:", text);
+  res.send("I got your POST request");
 });
 
 // Need to add response if page not found!
