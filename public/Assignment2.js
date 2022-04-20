@@ -22,11 +22,14 @@ function buttonAction_Continue() {
   let userName = document.getElementById("username").value;
   let url = document.getElementById("url").value;
   let nickName = document.getElementById("nick").value;
-  let UN_URL_NN = userName + url + nickName;
+  let UN_URL_NN = userName + "_" + url + "_" + nickName;
 
-  sessionStorage.setItem("pick",nickName);
-  window.location = "/submission.html";
+  
 
   //send POST request to server
   sendPostRequest('/videoData', UN_URL_NN)
+
+  //save nickname and change windows
+  sessionStorage.setItem("pick",nickName);
+  window.location = "/submission.html";
 }
