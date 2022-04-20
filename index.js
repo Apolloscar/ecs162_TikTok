@@ -33,7 +33,7 @@ app.use(bodyParser.text());
 app.post('/videoData', function(req, res, next) {
   console.log("Server recieved a post request at", req.url);
   let text = req.body;
-  console.log("It contained this string:", text);
+  console.log("It contained this string:",text);
   res.send("I got your POST request");
 });
 

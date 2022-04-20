@@ -24,12 +24,9 @@ function buttonAction_Continue() {
   let nickName = document.getElementById("nick").value;
   let UN_URL_NN = userName + url + nickName;
 
+  sessionStorage.setItem("pick",nickName);
+  window.location = "/submission.html";
+
   //send POST request to server
   sendPostRequest('/videoData', UN_URL_NN)
-    .then(function(data) {
-    sessionStorage.setItem("pick",data);
-    window.location = "/submission.html";  })
-    .catch(function(error) {
-    console.log("Error occurred:", error)
-  });
 }
